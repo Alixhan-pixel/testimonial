@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 19px;
+    /*  */
+}   
+
+.click-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    padding: 10%;
+}
+.app-js{
+    background-image: url(ui-ux-modernization-hero.png);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.divider{
+    height: 3px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.image-container{
+    padding-bottom: 20px;
+}
+.image-container>img{
+    width: 100px;
+    height: 100px;
+}
+.hero-iamges>img{
+    position: absolute;
+}
+.img1{
+    bottom: 110px;
+    right: 2%;
+}
+.img2{
+    left: 0%;
+}
+
+.up-down{
+    animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+    0%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(25px);
+    }
+}
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white !important;
+    padding: 5%;
+    box-shadow: rgb(255, 255, 255) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.testimonials{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.pre-btn:hover{
+    cursor: pointer;
+}
+.next-btn:hover{
+    cursor: pointer;
+}
